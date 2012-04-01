@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `files` (
   `loc` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `size` decimal(12,2) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -39,4 +39,4 @@ CREATE TABLE IF NOT EXISTS `users` (
   `user` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `pass` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
